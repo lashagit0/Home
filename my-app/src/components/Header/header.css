@@ -1,0 +1,33 @@
+header {
+  border: 1px solid;
+  height: 50px;
+  margin: auto;
+  width: 80%;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+ul {
+  display: flex;
+  column-gap: 30px;
+}
+li {
+  color: black;
+  font-size: 20px;
+}
+ul > img {
+  background: transparent 1;
+  width: 100px;
+}
+ul > button {
+  background: linear-gradient(to right, #73c8a9, #373b44);
+
+  color: rgb(255, 255, 255);
+  border: none;
+  width: 80px;
+  height: 25px;
+  border-radius: 3px;
+}
