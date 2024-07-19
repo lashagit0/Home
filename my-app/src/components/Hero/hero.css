@@ -1,0 +1,37 @@
+.hero-sec {
+  height: 400px;
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+}
+
+.img-wrapper {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(./pexels-photo-106399.jpeg);
+  width: 100%;
+  height: 93%;
+  background-size: cover;
+  background-position-x: 0px;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+.textside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: #fff;
+  width: 600px;
+  text-align: center;
+  row-gap: 20px;
+  height: 100%;
+  font-weight: 600;
+  top: -20px;
+}
+.textside h1 {
+  font-size: 52px;
+}
+.textside p {
+  font-size: 28px;
+}

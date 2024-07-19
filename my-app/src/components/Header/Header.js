@@ -1,28 +1,40 @@
 import React from "react";
 import "./header.css";
-import logo from "./file.png";
+import logo from "./Screenshot 2024-07-19 213501.png";
 
 const Header = () => {
   return (
-    <>
-      <header>
-        <nav>
-          <ul>
+    <header>
+      <nav>
+        <ul>
+          <a href="/">
             <img src={logo} alt="" />
-          </ul>
-          <ul>
+          </a>
+        </ul>
+        <ul>
+          <a className="nav-links" href="/">
             <li>Home</li>
+          </a>
+          <a className="nav-links" href="/">
+            <li>About Us</li>
+          </a>
+          <a className="nav-links" href="/">
             <li>Houses</li>
-            <li>About</li>
+          </a>
+          <a className="nav-links" href="/">
             <li>Contact</li>
-          </ul>
-          <ul>
+          </a>
+        </ul>
+        <ul>
+          <a href="/">
             <button>Sign Up</button>
+          </a>
+          <a href="/">
             <button>Cart</button>
-          </ul>
-        </nav>
-      </header>
-    </>
+          </a>
+        </ul>
+      </nav>
+    </header>
   );
 };
 

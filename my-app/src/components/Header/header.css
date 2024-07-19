@@ -1,8 +1,7 @@
 header {
-  border: 1px solid;
-  height: 50px;
+  height: 70px;
   margin: auto;
-  width: 80%;
+  width: 60%;
 }
 nav {
   display: flex;
@@ -14,19 +13,19 @@ ul {
   display: flex;
   column-gap: 30px;
 }
+.nav-links {
+  display: flex;
+}
 li {
   color: black;
   font-size: 20px;
 }
-ul > img {
+a > img {
   background: transparent 1;
-  width: 100px;
+  width: 200px;
 }
-ul > button {
-  background: linear-gradient(to right, #73c8a9, #373b44);
-
-  color: rgb(255, 255, 255);
-  border: none;
+a > button {
+  border: 1px solid black;
   width: 80px;
   height: 25px;
   border-radius: 3px;
