@@ -1,15 +1,17 @@
 import React from "react";
 
-function houseprops(props) {
+function Houseprops(props) {
   return (
     <div className="houses-row">
       <div className="item">
         <img src={props.src} alt={props.alt} />
-        <h3>{props.itemTitle}</h3>
-        <p>{props.price}</p>
+        <div className="text-wrap">
+          <h3>{props.itemTitle}</h3>
+          <p>{props.price}</p>
+        </div>
       </div>
     </div>
   );
 }
 
-export default houseprops;
+export default Houseprops;

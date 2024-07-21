@@ -1,6 +1,7 @@
 import React from "react";
 import "./header.css";
 import logo from "./Screenshot 2024-07-19 213501.png";
+import cart from "./cart-shopping-solid.svg";
 
 const Header = () => {
   return (
@@ -22,15 +23,15 @@ const Header = () => {
             <li>Houses</li>
           </a>
           <a className="nav-links" href="/">
-            <li>Contact</li>
+            <li>Contact Us</li>
           </a>
         </ul>
-        <ul>
+        <ul className="nav-btn">
           <a href="/">
-            <button>Sign Up</button>
+            <img className="cart" src={cart} alt="" />
           </a>
           <a href="/">
-            <button>Cart</button>
+            <button>Sign Up</button>
           </a>
         </ul>
       </nav>

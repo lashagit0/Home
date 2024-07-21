@@ -1,0 +1,21 @@
+footer {
+  background-color: black;
+  height: 100px;
+  margin-top: 100px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.links-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.links {
+  display: flex;
+  column-gap: 20px;
+  letter-spacing: 2px;
+}

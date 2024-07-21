@@ -22,16 +22,22 @@
   justify-content: center;
   position: relative;
   color: #fff;
-  width: 600px;
+  width: 700px;
   text-align: center;
   row-gap: 20px;
   height: 100%;
   font-weight: 600;
-  top: -20px;
 }
 .textside h1 {
-  font-size: 52px;
+  font-size: 50px;
+  letter-spacing: -1px;
 }
-.textside p {
-  font-size: 28px;
+.lrn-more {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  width: 200px;
+  height: 33px;
+  font-size: 20px;
+  cursor: pointer;
 }

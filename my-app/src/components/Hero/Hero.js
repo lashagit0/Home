@@ -6,10 +6,8 @@ const Hero = () => {
     <div className="hero-sec">
       <div className="img-wrapper"></div>
       <div className="textside">
-        <h1>Hello World</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, ducimus.
-        </p>
+        <h1>Find Your Dream Home Today</h1>
+        <button className="lrn-more">Learn More</button>
       </div>
     </div>
   );

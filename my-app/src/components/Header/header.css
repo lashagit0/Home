@@ -11,6 +11,7 @@ nav {
 }
 ul {
   display: flex;
+  align-items: center;
   column-gap: 30px;
 }
 .nav-links {
@@ -25,8 +26,14 @@ a > img {
   width: 200px;
 }
 a > button {
-  border: 1px solid black;
-  width: 80px;
-  height: 25px;
+  width: 100px;
+  height: 30px;
   border-radius: 3px;
+  background-color: black;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.nav-btn img {
+  width: 40px;
 }
