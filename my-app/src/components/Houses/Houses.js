@@ -9,13 +9,20 @@ import image5 from "./4f31bea77eef0f4a8400a2da3b7e327e.jpg";
 import image6 from "./pooolhouse.jpeg";
 import image7 from "./pexels-bertellifotografia-2980955.jpg";
 import image9 from "./modernhouse.jpg";
+import { Link } from "react-router-dom";
 
 const Houses = () => {
   return (
     <div className="row-wrapper">
       <h2 className="houses-txt">Houses</h2>
       <div className="houses-sec">
-        <Houseprops src={image1} itemTitle="House in Texas" price="1000000$" />
+        <Link to="ProductPage">
+          <Houseprops
+            src={image1}
+            itemTitle="House in Texas"
+            price="1000000$"
+          />
+        </Link>
         <Houseprops
           src={image2}
           itemTitle="Mansion in Hawaii"
