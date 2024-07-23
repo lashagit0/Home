@@ -16,7 +16,7 @@ const Houses = () => {
     <div className="row-wrapper">
       <h2 className="houses-txt">Houses</h2>
       <div className="houses-sec">
-        <Link to="ProductPage">
+        <Link to="ProductPage" target="_blank">
           <Houseprops
             src={image1}
             itemTitle="House in Texas"
