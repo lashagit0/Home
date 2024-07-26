@@ -2,15 +2,17 @@ import React from "react";
 import "./header.css";
 import logo from "./Screenshot 2024-07-19 213501.png";
 import cart from "./cart-shopping-solid.svg";
+import burger from "./burgermenu.png";
 
 const Header = () => {
   return (
     <header>
       <nav>
-        <ul>
+        <ul className="logo-wrap">
           <a href="/">
             <img src={logo} alt="" />
           </a>
+          <img className="burger" src={burger} alt="" />
         </ul>
         <ul>
           <a className="nav-links" href="/">

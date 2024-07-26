@@ -37,3 +37,57 @@ a > button {
 .nav-btn img {
   width: 40px;
 }
+
+@media (max-width: 500px) {
+  header {
+    height: 70px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+  .logo-wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+  .burger {
+    background-color: transparent;
+    width: 50px;
+  }
+  ul {
+    display: none;
+    align-items: center;
+  }
+  .nav-links {
+    display: none;
+  }
+  li {
+    color: black;
+    font-size: 20px;
+    display: none;
+  }
+  a > img {
+    background: transparent 1;
+    width: 200px;
+    display: flex;
+  }
+  a > button {
+    width: 100px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    display: none;
+  }
+  .nav-btn img {
+    display: none;
+  }
+}
