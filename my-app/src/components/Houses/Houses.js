@@ -23,11 +23,13 @@ const Houses = () => {
             price="1000000$"
           />
         </Link>
-        <Houseprops
-          src={image2}
-          itemTitle="Mansion in Hawaii"
-          price="1000000$"
-        />
+        <Link to="ProductPage2" target="_blank">
+          <Houseprops
+            src={image2}
+            itemTitle="Mansion in Hawaii"
+            price="1000000$"
+          />
+        </Link>
         <Houseprops src={image3} itemTitle="House in Italy" price="1000000$" />
         <Houseprops
           src={image4}

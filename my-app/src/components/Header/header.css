@@ -9,6 +9,9 @@ nav {
   align-items: center;
   height: 100%;
 }
+.burger {
+  display: none;
+}
 ul {
   display: flex;
   align-items: center;

@@ -1,18 +1,18 @@
 import React from "react";
-import "./productpage.css";
-import Header from "../components/Header/Header";
-import image1 from "../components/Houses/w560x373.jpg";
+import "./productpage2.css";
+import Header from "../../components/Header/Header";
+import image2 from "../../components/Houses/pexels-pixabay-208736.jpg";
 
-function productPage() {
+function ProductPage2() {
   return (
     <>
       <Header />
       <div className="product-sec">
         <div className="image-section">
-          <img src={image1} alt="" />
+          <img src={image2} alt="" />
         </div>
         <div className="text-section">
-          <h2>House in Texas</h2>
+          <h2>Mansion in Hawaii</h2>
           <h3>US $999999</h3>
           <h4>condition: Good</h4>
           <p>house was built at 2000</p>
@@ -26,4 +26,4 @@ function productPage() {
   );
 }
 
-export default productPage;
+export default ProductPage2;
