@@ -13,9 +13,11 @@ footer {
   justify-content: center;
   flex-direction: column;
   row-gap: 10px;
+  column-gap: 40px;
 }
 .links {
   display: flex;
-  column-gap: 20px;
+  column-gap: 50px;
   letter-spacing: 2px;
+  cursor: pointer;
 }

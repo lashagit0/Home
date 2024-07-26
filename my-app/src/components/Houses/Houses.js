@@ -30,26 +30,50 @@ const Houses = () => {
             price="1000000$"
           />
         </Link>
-        <Houseprops src={image3} itemTitle="House in Italy" price="1000000$" />
-        <Houseprops
-          src={image4}
-          itemTitle="House in Washington"
-          price="1000000$"
-        />
+        <Link to="ProductPage3" target="_blank">
+          <Houseprops
+            src={image3}
+            itemTitle="House in Italy"
+            price="1000000$"
+          />
+        </Link>
+        <Link to="ProductPage4" target="_blank">
+          <Houseprops
+            src={image4}
+            itemTitle="House in Washington"
+            price="1000000$"
+          />
+        </Link>
       </div>
       <div className="houses-sec">
-        <Houseprops
-          src={image5}
-          itemTitle="House in Switzerland"
-          price="1000000$"
-        />
-        <Houseprops src={image6} itemTitle="House in Norway" price="1000000$" />
-        <Houseprops src={image7} itemTitle="House in India" price="1000000$" />
-        <Houseprops
-          src={image9}
-          itemTitle="House in Ireland"
-          price="1000000$"
-        />
+        <Link to="ProductPage5" target="_blank">
+          <Houseprops
+            src={image5}
+            itemTitle="House in Switzerland"
+            price="1000000$"
+          />
+        </Link>
+        <Link to="ProductPage6" target="_blank">
+          <Houseprops
+            src={image6}
+            itemTitle="House in Norway"
+            price="1000000$"
+          />
+        </Link>
+        <Link to="ProductPage7" target="_blank">
+          <Houseprops
+            src={image7}
+            itemTitle="House in India"
+            price="1000000$"
+          />
+        </Link>
+        <Link to="ProductPage8" target="_blank">
+          <Houseprops
+            src={image9}
+            itemTitle="House in Ireland"
+            price="1000000$"
+          />
+        </Link>
       </div>
     </div>
   );

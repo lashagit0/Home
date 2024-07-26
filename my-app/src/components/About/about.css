@@ -32,6 +32,9 @@
   height: 30px;
   font-size: 20px;
   margin-top: 20px;
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px solid;
 }
 .imgside {
   background-image: url(./pexels-photo-3184433.jpeg);
@@ -75,13 +78,15 @@
     height: 30px;
     font-size: 18px;
     margin-top: 0px;
+    background-color: transparent;
+    cursor: pointer;
   }
   .imgside {
     background-image: url(./pexels-photo-3184433.jpeg);
     background-size: cover;
     width: 200px;
-    height: 400px;
+    height: 350px;
     border-radius: 20px;
-    margin-top: 40px;
+    margin-top: 90px;
   }
 }

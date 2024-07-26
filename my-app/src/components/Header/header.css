@@ -61,7 +61,8 @@ a > button {
   }
   .burger {
     background-color: transparent;
-    width: 50px;
+    width: 40px;
+    display: flex;
   }
   ul {
     display: none;
